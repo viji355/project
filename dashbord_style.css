@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 36px;
+}
+
+form {
+  max-width: 96%;
+  background-color: rgb(173, 173, 170);
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"],
+[type="date"] {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+label {
+  display: inline-block;
+  padding: 20px 0px 0px 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: auto;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
